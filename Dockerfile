@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expone el puerto en el que el servidor de Angular estará escuchando
-EXPOSE 7001
+EXPOSE 80
 
 # Comando para iniciar el servidor de desarrollo
 CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
